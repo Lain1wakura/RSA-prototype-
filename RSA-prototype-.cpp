@@ -62,8 +62,8 @@ int main()
 
 	int encmessage = (int)pow(message, openexp) % multy;
 	cout << "Encrypted message is: " << encmessage << endl;
-	int decrypted = (int)pow(encmessage, d) % multy;
-	cout << "Decrypted message is: " << decrypted << endl;
+	int decrypted = (int)pow(encmessage, d) % multy;		//Here is how to decrypt
+	cout << "Decrypted message is: " << decrypted << endl;		//Just for validation checks
 
 	return 0;
 }
